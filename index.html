@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tap Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <img src="assets/logo.png" alt="Логотип" class="logo" />
+    <h1>Добро пожаловать в Tap Game!</h1>
+
+    <div class="tap-section">
+      <button id="tap-button" class="tap-button"></button>
+      <p id="tap-count">Очков: 0</p>
+    </div>
+
+    <div class="task-section">
+      <h2>🎯 Задание</h2>
+      <p>Подпишись на <a href="https://t.me/alfabank_mobile" target="_blank">@alfabank_mobile</a></p>
+      <button id="check-subscription">Проверить подписку (+200)</button>
+    </div>
+
+    <div class="leaderboard-section">
+      <h2>🏆 Лидерборд</h2>
+      <ol id="leaderboard"></ol>
+    </div>
+  </div>
+</body>
+</html>
